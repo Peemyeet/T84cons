@@ -306,3 +306,71 @@ img {
     margin-right: auto;
   }
 }
+
+/* FOOTER */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+/* Footer Links */
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Links */
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+      padding: 15px;
+  }
+
+  .footer-links a,
+  .social-media a {
+      display: block;
+      margin: 5px 0;
+  }
+
+  .footer-links,
+  .social-media {
+      text-align: center;
+  }
+}
+
