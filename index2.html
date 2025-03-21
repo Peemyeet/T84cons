@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax responsive landing page</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- ICONS BOXICONS -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- ===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="index.html" class="nav__logo">T84 STUDIO</a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#Contact" class="nav__link">Contac</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- ===== HOME =====-->
+            <div class="home">
+                <div class="parallax home__parallax home__parallax-img1" data-rellax-speed="-9"></div>
+                <div class="parallax home__parallax home__parallax-img2" data-rellax-speed="-7"></div>
+                <div class="parallax home__parallax home__parallax-img3" data-rellax-speed="-6"></div>
+                <div class="parallax home__parallax home__parallax-img4" data-rellax-speed="-3"></div>
+
+                <h1 class="parallax home__title" data-rellax-speed="-6">OUR PROJECT</h1>
+
+                <div class="home__scroll">
+                   <a href="#section"><i class='bx bx-mouse'></i></a>
+                </div>
+            </div>
+
+            <!-- ===== SECTION =====-->
+            <section class="l-section" id="section">
+                <div class="section">
+                    <div class="section__data">
+                        <h2 class="section__title">Bann...</h2>
+                        <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laboriosam. Esse ipsum culpa laboriosam, totam hic quidem recusandae eos, numquam iusto aliquid expedita est sapiente quaerat inventore voluptatem corporis aliquam.</p>
+                    </div>
+        
+                    <img src="sss.PNG" alt="" class="section__img">
+                </div>
+            </section>
+
+            <section class="l-Contact" id="Contact">
+                <div class="section">
+                    <div class="section__data">
+                        <h2 class="section__title">Contact us</h2>
+                        <p class="section__text">T84 Construction is on onnut 66 yeak19-1 road Prawet District. 10250.</p>
+                        <br><br>    
+                        <p>Call:+66 (Beam.)</p>
+                    </div>
+        
+                    <img src="logo.jpg" alt="" class="section__img">
+                </div>
+            </section>
+
+                  <!-- FOOTER -->
+                  <footer class="footer">
+                    <p>&copy; 2025 T84 Construction. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#Contact">Contact Us</a>
+                    </div>
+                    <p class="social-media">
+                        Follow us: 
+                        <a href="https://www.facebook.com/people/T84-Construction/100063487839667/" target="_blank">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </p>
+                </footer>
+                
+        </main>
+
+        <!-- RELLAX JS -->
+        <script src="rellac.min.js"></script>
+
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="main.js"></script>
+
+    </body>
+</html>
